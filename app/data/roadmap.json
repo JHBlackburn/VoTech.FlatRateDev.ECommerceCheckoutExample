@@ -1,0 +1,54 @@
+[
+  {
+    "step": 1,
+    "name": "RFP Catalog",
+    "description": "Clean approved product, pricing, SKU, and spec package for the buyer.",
+    "effort": "Small",
+    "risk": "Low",
+    "exampleDeliverables": [
+      "RFP product export",
+      "Spec sheet bundle",
+      "Customer price sheet",
+      "Missing-data report"
+    ]
+  },
+  {
+    "step": 2,
+    "name": "Portal-Lite",
+    "description": "Private customer catalog where buyer can browse, select, and submit an order request.",
+    "effort": "Medium",
+    "risk": "Medium",
+    "exampleDeliverables": [
+      "Customer catalog page",
+      "Request cart",
+      "Order request email/export",
+      "Manual review queue"
+    ]
+  },
+  {
+    "step": 3,
+    "name": "NetSuite-Backed Portal",
+    "description": "Portal reads selected item, price, inventory, and customer data from NetSuite.",
+    "effort": "Larger",
+    "risk": "Medium/High",
+    "exampleDeliverables": [
+      "NetSuite item sync",
+      "Customer price sync",
+      "Sales order draft creation",
+      "Exception logging"
+    ]
+  },
+  {
+    "step": 4,
+    "name": "True Punchout",
+    "description": "Buyer procurement-system integration using cXML/OCI/etc. if required by the RFP.",
+    "effort": "Highest",
+    "risk": "Highest",
+    "exampleDeliverables": [
+      "Buyer protocol review",
+      "cXML cart return",
+      "PO intake",
+      "Order acknowledgement flow"
+    ]
+  }
+]

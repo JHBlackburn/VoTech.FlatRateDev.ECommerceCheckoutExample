@@ -1,0 +1,42 @@
+[
+  {
+    "id": "issue-001",
+    "severity": "High",
+    "title": "RFP uses the word punchout, but no cXML or OCI protocol is confirmed",
+    "impact": "Scope cannot be priced safely until we know whether they need true procurement-system punchout or just a customer-specific portal.",
+    "relatedArea": "RFP / Punchout",
+    "suggestedTicket": "Punchout requirement classification spike"
+  },
+  {
+    "id": "issue-002",
+    "severity": "High",
+    "title": "Customer-specific pricing is missing or conflicting on multiple items",
+    "impact": "A buyer-facing portal could show the wrong contract price.",
+    "relatedArea": "Pricing",
+    "suggestedTicket": "Customer price rule audit"
+  },
+  {
+    "id": "issue-003",
+    "severity": "Medium",
+    "title": "Some items are not matched to NetSuite item ids",
+    "impact": "These items cannot be safely automated into sales orders or inventory reports.",
+    "relatedArea": "Item Master",
+    "suggestedTicket": "SKU / NetSuite item crosswalk cleanup"
+  },
+  {
+    "id": "issue-004",
+    "severity": "Medium",
+    "title": "Lead time is unclear for special-order equipment",
+    "impact": "Portal-lite can show products, but order submission should route to review until lead-time rules are confirmed.",
+    "relatedArea": "Purchasing",
+    "suggestedTicket": "Lead-time source-of-truth review"
+  },
+  {
+    "id": "issue-005",
+    "severity": "Low",
+    "title": "Some products have no spec sheet URL",
+    "impact": "RFP catalog may be incomplete or create manual follow-up work.",
+    "relatedArea": "Catalog Content",
+    "suggestedTicket": "Spec sheet bundle generator"
+  }
+]

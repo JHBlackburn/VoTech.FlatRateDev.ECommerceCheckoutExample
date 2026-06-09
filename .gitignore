@@ -1,0 +1,8 @@
+node_modules/
+dist/
+.screenshots/
+tmp-verify/
+test-results/
+.server.pid
+vite-server.*.log
+*.tsbuildinfo

@@ -1,0 +1,16 @@
+{
+  "customerName": "Metro Healthcare Dining Services",
+  "rfpName": "2026 Kitchen Equipment Standardization RFP",
+  "status": "Draft Readiness Review",
+  "deadline": "2026-07-15",
+  "buyerRequirement": "Customer-specific online catalog requested. Punchout language present but protocol not yet confirmed.",
+  "portalUrlMock": "portal.totalresa.com/metro-healthcare",
+  "stats": {
+    "totalItems": 8,
+    "rfpReady": 4,
+    "needsReview": 4,
+    "netSuiteMatched": 7,
+    "missingContractPrice": 1,
+    "priceConflicts": 1
+  }
+}
